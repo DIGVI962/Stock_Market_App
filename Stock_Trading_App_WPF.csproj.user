@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UserControls\BottomBarUserControlView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\NavBarUserControlView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\OptionBarUserControlView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\IndivStockInfoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MainWindowView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\MarketWatchView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SecurityListView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StockInfoPages\AdditionalView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StockInfoPages\InfoView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\StockInfoPages\QuotesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Styles\Button.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Image.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\ListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Page.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\Text.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\ToggleButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\BottomBarUserControlView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\NavBarUserControlView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\OptionBarUserControlView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utils\DataTemplate.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\IndivStockInfoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MainWindowView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\MarketWatchView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SecurityListView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StockInfoPages\AdditionalView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StockInfoPages\InfoView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\StockInfoPages\QuotesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>
